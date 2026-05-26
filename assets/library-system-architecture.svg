@@ -1,95 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1080">
 
-<!-- Background -->
-
 <rect width="1400" height="1080" fill="#0d1117"/>
 
-<!-- Grid -->
+<!-- TITLE -->
 
-<g opacity="0.05">
-
-<line x1="0" y1="100" x2="1400" y2="100" stroke="white"/>
-<line x1="0" y1="200" x2="1400" y2="200" stroke="white"/>
-<line x1="0" y1="300" x2="1400" y2="300" stroke="white"/>
-<line x1="0" y1="400" x2="1400" y2="400" stroke="white"/>
-<line x1="0" y1="500" x2="1400" y2="500" stroke="white"/>
-<line x1="0" y1="600" x2="1400" y2="600" stroke="white"/>
-<line x1="0" y1="700" x2="1400" y2="700" stroke="white"/>
-<line x1="0" y1="800" x2="1400" y2="800" stroke="white"/>
-<line x1="0" y1="900" x2="1400" y2="900" stroke="white"/>
-
-</g>
-
-<!-- Header -->
-
-<text
-x="700"
-y="70"
-fill="white"
-font-size="40"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="700"
+      y="70"
+      fill="white"
+      font-size="40"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
 Library Management System Architecture
 
 </text>
 
-<text
-x="700"
-y="110"
-fill="#94a3b8"
-font-size="18"
-font-family="Arial"
-text-anchor="middle">
+<!-- SUBTITLE -->
+
+<text x="700"
+      y="110"
+      fill="#94a3b8"
+      font-size="18"
+      font-family="Arial"
+      text-anchor="middle">
 
 Flask • PostgreSQL • APScheduler • Authentication • Email Automation
 
 </text>
 
-<!-- Main Vertical Line -->
+<!-- MAIN LINE -->
 
-<line
-x1="700"
-y1="170"
-x2="700"
-y2="840"
-stroke="#8b5cf6"
-stroke-width="4"
-stroke-linecap="round"/>
+<line x1="700"
+      y1="170"
+      x2="700"
+      y2="820"
+      stroke="#8b5cf6"
+      stroke-width="4"/>
 
 <!-- USERS -->
 
-<rect
-x="450"
-y="150"
-width="500"
-height="130"
-rx="24"
-fill="#1e1b4b"
-stroke="#8b5cf6"
-stroke-width="2"/>
+<rect x="450"
+      y="150"
+      width="500"
+      height="120"
+      rx="24"
+      fill="#1e1b4b"
+      stroke="#8b5cf6"
+      stroke-width="2"/>
 
-<text
-x="700"
-y="210"
-fill="white"
-font-size="26"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="700"
+      y="210"
+      fill="white"
+      font-size="26"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
-Users & Admin Portal
+Users and Admin Portal
 
 </text>
 
-<text
-x="700"
-y="245"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="700"
+      y="245"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
 Authentication • Borrow Requests • Dashboard Access
 
@@ -97,99 +74,78 @@ Authentication • Borrow Requests • Dashboard Access
 
 <!-- FRONTEND -->
 
-<rect
-x="450"
-y="360"
-width="500"
-height="130"
-rx="24"
-fill="#312e81"
-stroke="#a78bfa"
-stroke-width="2"/>
+<rect x="450"
+      y="350"
+      width="500"
+      height="120"
+      rx="24"
+      fill="#312e81"
+      stroke="#a78bfa"
+      stroke-width="2"/>
 
-<text
-x="700"
-y="420"
-fill="white"
-font-size="26"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="700"
+      y="410"
+      fill="white"
+      font-size="26"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
 Frontend Interface
 
 </text>
 
-<text
-x="700"
-y="455"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="700"
+      y="445"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
 Bootstrap 5 • jQuery • Responsive UI • Dark Mode
 
 </text>
 
-<!-- HTTP Label -->
-
-<text
-x="805"
-y="325"
-fill="#94a3b8"
-font-size="13"
-font-family="Arial"
-text-anchor="middle">
-
-HTTP Requests
-
-</text>
-
 <!-- BACKEND -->
 
-<rect
-x="330"
-y="570"
-width="740"
-height="190"
-rx="28"
-fill="#172554"
-stroke="#60a5fa"
-stroke-width="2"/>
+<rect x="330"
+      y="550"
+      width="740"
+      height="190"
+      rx="28"
+      fill="#172554"
+      stroke="#60a5fa"
+      stroke-width="2"/>
 
-<text
-x="700"
-y="635"
-fill="white"
-font-size="28"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="700"
+      y="620"
+      fill="white"
+      font-size="28"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
 Flask Backend Application
 
 </text>
 
-<text
-x="700"
-y="680"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="700"
+      y="665"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
-Routes • Flask-Login • SQLAlchemy ORM • WTForms
+Routes • Flask Login • SQLAlchemy ORM • WTForms
 
 </text>
 
-<text
-x="700"
-y="715"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="700"
+      y="700"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
 Authentication • Borrow Workflow • Session Management
 
@@ -197,186 +153,161 @@ Authentication • Borrow Workflow • Session Management
 
 <!-- CONNECTIONS -->
 
-<!-- LEFT -->
+<line x1="500"
+      y1="740"
+      x2="250"
+      y2="870"
+      stroke="#f43f5e"
+      stroke-width="4"/>
 
-<line
-x1="500"
-y1="760"
-x2="250"
-y2="900"
-stroke="#f43f5e"
-stroke-width="4"
-stroke-linecap="round"/>
+<line x1="700"
+      y1="740"
+      x2="700"
+      y2="870"
+      stroke="#22d3ee"
+      stroke-width="4"/>
 
-<!-- CENTER -->
+<line x1="900"
+      y1="740"
+      x2="1150"
+      y2="870"
+      stroke="#84cc16"
+      stroke-width="4"/>
 
-<line
-x1="700"
-y1="760"
-x2="700"
-y2="890"
-stroke="#22d3ee"
-stroke-width="4"
-stroke-linecap="round"/>
+<!-- AUTH -->
 
-<!-- RIGHT -->
+<rect x="70"
+      y="840"
+      width="360"
+      height="160"
+      rx="24"
+      fill="#3b0764"
+      stroke="#f43f5e"
+      stroke-width="2"/>
 
-<line
-x1="900"
-y1="760"
-x2="1150"
-y2="900"
-stroke="#84cc16"
-stroke-width="4"
-stroke-linecap="round"/>
-
-<!-- AUTH SERVICE -->
-
-<rect
-x="70"
-y="860"
-width="360"
-height="160"
-rx="24"
-fill="#3b0764"
-stroke="#f43f5e"
-stroke-width="2"/>
-
-<text
-x="250"
-y="925"
-fill="white"
-font-size="24"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="250"
+      y="905"
+      fill="white"
+      font-size="24"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
 Authentication Service
 
 </text>
 
-<text
-x="250"
-y="965"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="250"
+      y="945"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
-Flask-Login • Bcrypt
+Flask Login • Bcrypt
 
 </text>
 
-<text
-x="250"
-y="995"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="250"
+      y="975"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
-Role-Based Access Control
+Role Based Access Control
 
 </text>
 
 <!-- DATABASE -->
 
-<ellipse
-cx="700"
-cy="910"
-rx="150"
-ry="30"
-fill="#0f766e"
-stroke="#22d3ee"
-stroke-width="2"/>
+<ellipse cx="700"
+         cy="890"
+         rx="150"
+         ry="30"
+         fill="#0f766e"
+         stroke="#22d3ee"
+         stroke-width="2"/>
 
-<rect
-x="550"
-y="910"
-width="300"
-height="120"
-fill="#083344"
-stroke="#22d3ee"
-stroke-width="2"/>
+<rect x="550"
+      y="890"
+      width="300"
+      height="120"
+      fill="#083344"
+      stroke="#22d3ee"
+      stroke-width="2"/>
 
-<ellipse
-cx="700"
-cy="1030"
-rx="150"
-ry="30"
-fill="#083344"
-stroke="#22d3ee"
-stroke-width="2"/>
+<ellipse cx="700"
+         cy="1010"
+         rx="150"
+         ry="30"
+         fill="#083344"
+         stroke="#22d3ee"
+         stroke-width="2"/>
 
-<text
-x="700"
-y="960"
-fill="white"
-font-size="24"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="700"
+      y="950"
+      fill="white"
+      font-size="24"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
 PostgreSQL Database
 
 </text>
 
-<text
-x="700"
-y="995"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="700"
+      y="985"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
 Users • Books • BorrowedBook
 
 </text>
 
-<!-- EMAIL SERVICE -->
+<!-- EMAIL -->
 
-<rect
-x="970"
-y="860"
-width="360"
-height="160"
-rx="24"
-fill="#3f6212"
-stroke="#84cc16"
-stroke-width="2"/>
+<rect x="970"
+      y="840"
+      width="360"
+      height="160"
+      rx="24"
+      fill="#3f6212"
+      stroke="#84cc16"
+      stroke-width="2"/>
 
-<text
-x="1150"
-y="925"
-fill="white"
-font-size="24"
-font-family="Arial"
-font-weight="bold"
-text-anchor="middle">
+<text x="1150"
+      y="905"
+      fill="white"
+      font-size="24"
+      font-family="Arial"
+      font-weight="bold"
+      text-anchor="middle">
 
-Scheduler + Email Service
+Scheduler and Email Service
 
 </text>
 
-<text
-x="1150"
-y="965"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="1150"
+      y="945"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
-APScheduler • Flask-Mail
+APScheduler • Flask Mail
 
 </text>
 
-<text
-x="1150"
-y="995"
-fill="#cbd5e1"
-font-size="15"
-font-family="Arial"
-text-anchor="middle">
+<text x="1150"
+      y="975"
+      fill="#cbd5e1"
+      font-size="15"
+      font-family="Arial"
+      text-anchor="middle">
 
 Automated Reminder Emails
 
