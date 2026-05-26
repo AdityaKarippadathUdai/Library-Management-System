@@ -1,10 +1,365 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <rect width="400" height="200" fill="#0d1117"/>
-  <text x="200" y="100"
-        fill="white"
-        font-size="28"
-        text-anchor="middle"
-        font-family="Arial">
-    SVG WORKING
-  </text>
+<svg viewBox="0 0 1400 1080" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1400" height="1080" fill="#0d1117"/>
+
+<!-- GRID -->
+
+<g opacity="0.05">
+
+<line x1="0" y1="100" x2="1400" y2="100" stroke="white"/>
+<line x1="0" y1="200" x2="1400" y2="200" stroke="white"/>
+<line x1="0" y1="300" x2="1400" y2="300" stroke="white"/>
+<line x1="0" y1="400" x2="1400" y2="400" stroke="white"/>
+<line x1="0" y1="500" x2="1400" y2="500" stroke="white"/>
+<line x1="0" y1="600" x2="1400" y2="600" stroke="white"/>
+<line x1="0" y1="700" x2="1400" y2="700" stroke="white"/>
+<line x1="0" y1="800" x2="1400" y2="800" stroke="white"/>
+<line x1="0" y1="900" x2="1400" y2="900" stroke="white"/>
+
+</g>
+
+<!-- TITLE -->
+
+<text
+x="700"
+y="70"
+fill="white"
+font-size="38"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Library Management System Architecture
+
+</text>
+
+<!-- SUBTITLE -->
+
+<text
+x="700"
+y="110"
+fill="#94a3b8"
+font-size="17"
+font-family="Arial"
+text-anchor="middle">
+
+Flask • PostgreSQL • APScheduler • Authentication • Email Automation
+
+</text>
+
+<!-- MAIN FLOW -->
+
+<line
+x1="700"
+y1="170"
+x2="700"
+y2="830"
+stroke="#8b5cf6"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<!-- USERS -->
+
+<rect
+x="450"
+y="150"
+width="500"
+height="130"
+rx="24"
+fill="#1e1b4b"
+stroke="#8b5cf6"
+stroke-width="2"/>
+
+<text
+x="700"
+y="210"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Users & Admin Portal
+
+</text>
+
+<text
+x="700"
+y="245"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Authentication • Borrow Requests • Dashboard Access
+
+</text>
+
+<!-- FRONTEND -->
+
+<rect
+x="450"
+y="360"
+width="500"
+height="130"
+rx="24"
+fill="#312e81"
+stroke="#a78bfa"
+stroke-width="2"/>
+
+<text
+x="700"
+y="420"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Frontend Interface
+
+</text>
+
+<text
+x="700"
+y="455"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Bootstrap 5 • jQuery • Responsive UI • Dark Mode
+
+</text>
+
+<!-- BACKEND -->
+
+<rect
+x="360"
+y="570"
+width="680"
+height="180"
+rx="26"
+fill="#172554"
+stroke="#60a5fa"
+stroke-width="2"/>
+
+<text
+x="700"
+y="635"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Flask Backend Application
+
+</text>
+
+<text
+x="700"
+y="675"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Routes • Flask-Login • SQLAlchemy ORM • WTForms
+
+</text>
+
+<text
+x="700"
+y="705"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Authentication • Borrow Workflow • Session Management
+
+</text>
+
+<!-- CONNECTIONS -->
+
+<line
+x1="500"
+y1="750"
+x2="250"
+y2="900"
+stroke="#f43f5e"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<line
+x1="700"
+y1="750"
+x2="700"
+y2="880"
+stroke="#22d3ee"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<line
+x1="900"
+y1="750"
+x2="1150"
+y2="900"
+stroke="#84cc16"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<!-- AUTH -->
+
+<rect
+x="80"
+y="850"
+width="340"
+height="150"
+rx="24"
+fill="#3b0764"
+stroke="#f43f5e"
+stroke-width="2"/>
+
+<text
+x="250"
+y="915"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Authentication Service
+
+</text>
+
+<text
+x="250"
+y="950"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Flask-Login • Bcrypt
+
+</text>
+
+<text
+x="250"
+y="980"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Role-Based Access Control
+
+</text>
+
+<!-- DATABASE -->
+
+<ellipse
+cx="700"
+cy="900"
+rx="140"
+ry="28"
+fill="#0f766e"
+stroke="#22d3ee"
+stroke-width="2"/>
+
+<rect
+x="560"
+y="900"
+width="280"
+height="110"
+fill="#083344"
+stroke="#22d3ee"
+stroke-width="2"/>
+
+<ellipse
+cx="700"
+cy="1010"
+rx="140"
+ry="28"
+fill="#083344"
+stroke="#22d3ee"
+stroke-width="2"/>
+
+<text
+x="700"
+y="945"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+PostgreSQL Database
+
+</text>
+
+<text
+x="700"
+y="980"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Users • Books • BorrowedBook
+
+</text>
+
+<!-- SCHEDULER -->
+
+<rect
+x="980"
+y="850"
+width="340"
+height="150"
+rx="24"
+fill="#3f6212"
+stroke="#84cc16"
+stroke-width="2"/>
+
+<text
+x="1150"
+y="915"
+fill="white"
+font-size="24"
+font-family="Arial"
+font-weight="bold"
+text-anchor="middle">
+
+Scheduler + Email Service
+
+</text>
+
+<text
+x="1150"
+y="950"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+APScheduler • Flask-Mail
+
+</text>
+
+<text
+x="1150"
+y="980"
+fill="#cbd5e1"
+font-size="14"
+font-family="Arial"
+text-anchor="middle">
+
+Automated Reminder Emails
+
+</text>
+
 </svg>
