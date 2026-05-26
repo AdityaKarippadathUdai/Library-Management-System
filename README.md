@@ -72,10 +72,7 @@ The system features a clean UI (Bootstrap + jQuery), secure authentication, role
 ## 🛰️ System Architecture
 
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/AdityaKarippadathUdai/Library-Management-System/main/assets/library-system-architecture.svg"
-    width="100%"
-  />
+  <img src="./assets/library-system-architecture.svg" width="100%">
 </p>
 
 ---
