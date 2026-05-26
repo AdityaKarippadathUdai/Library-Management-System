@@ -1,8 +1,10 @@
-<svg viewBox="0 0 1400 1080" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1080">
+
+<!-- Background -->
 
 <rect width="1400" height="1080" fill="#0d1117"/>
 
-<!-- GRID -->
+<!-- Grid -->
 
 <g opacity="0.05">
 
@@ -18,13 +20,13 @@
 
 </g>
 
-<!-- TITLE -->
+<!-- Header -->
 
 <text
 x="700"
 y="70"
 fill="white"
-font-size="38"
+font-size="40"
 font-family="Arial"
 font-weight="bold"
 text-anchor="middle">
@@ -33,13 +35,11 @@ Library Management System Architecture
 
 </text>
 
-<!-- SUBTITLE -->
-
 <text
 x="700"
 y="110"
 fill="#94a3b8"
-font-size="17"
+font-size="18"
 font-family="Arial"
 text-anchor="middle">
 
@@ -47,13 +47,13 @@ Flask • PostgreSQL • APScheduler • Authentication • Email Automation
 
 </text>
 
-<!-- MAIN FLOW -->
+<!-- Main Vertical Line -->
 
 <line
 x1="700"
 y1="170"
 x2="700"
-y2="830"
+y2="840"
 stroke="#8b5cf6"
 stroke-width="4"
 stroke-linecap="round"/>
@@ -74,7 +74,7 @@ stroke-width="2"/>
 x="700"
 y="210"
 fill="white"
-font-size="24"
+font-size="26"
 font-family="Arial"
 font-weight="bold"
 text-anchor="middle">
@@ -87,7 +87,7 @@ Users & Admin Portal
 x="700"
 y="245"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -111,7 +111,7 @@ stroke-width="2"/>
 x="700"
 y="420"
 fill="white"
-font-size="24"
+font-size="26"
 font-family="Arial"
 font-weight="bold"
 text-anchor="middle">
@@ -124,7 +124,7 @@ Frontend Interface
 x="700"
 y="455"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -132,14 +132,28 @@ Bootstrap 5 • jQuery • Responsive UI • Dark Mode
 
 </text>
 
+<!-- HTTP Label -->
+
+<text
+x="805"
+y="325"
+fill="#94a3b8"
+font-size="13"
+font-family="Arial"
+text-anchor="middle">
+
+HTTP Requests
+
+</text>
+
 <!-- BACKEND -->
 
 <rect
-x="360"
+x="330"
 y="570"
-width="680"
-height="180"
-rx="26"
+width="740"
+height="190"
+rx="28"
 fill="#172554"
 stroke="#60a5fa"
 stroke-width="2"/>
@@ -148,7 +162,7 @@ stroke-width="2"/>
 x="700"
 y="635"
 fill="white"
-font-size="24"
+font-size="28"
 font-family="Arial"
 font-weight="bold"
 text-anchor="middle">
@@ -159,9 +173,9 @@ Flask Backend Application
 
 <text
 x="700"
-y="675"
+y="680"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -171,9 +185,9 @@ Routes • Flask-Login • SQLAlchemy ORM • WTForms
 
 <text
 x="700"
-y="705"
+y="715"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -183,40 +197,46 @@ Authentication • Borrow Workflow • Session Management
 
 <!-- CONNECTIONS -->
 
+<!-- LEFT -->
+
 <line
 x1="500"
-y1="750"
+y1="760"
 x2="250"
 y2="900"
 stroke="#f43f5e"
 stroke-width="4"
 stroke-linecap="round"/>
 
+<!-- CENTER -->
+
 <line
 x1="700"
-y1="750"
+y1="760"
 x2="700"
-y2="880"
+y2="890"
 stroke="#22d3ee"
 stroke-width="4"
 stroke-linecap="round"/>
 
+<!-- RIGHT -->
+
 <line
 x1="900"
-y1="750"
+y1="760"
 x2="1150"
 y2="900"
 stroke="#84cc16"
 stroke-width="4"
 stroke-linecap="round"/>
 
-<!-- AUTH -->
+<!-- AUTH SERVICE -->
 
 <rect
-x="80"
-y="850"
-width="340"
-height="150"
+x="70"
+y="860"
+width="360"
+height="160"
 rx="24"
 fill="#3b0764"
 stroke="#f43f5e"
@@ -224,7 +244,7 @@ stroke-width="2"/>
 
 <text
 x="250"
-y="915"
+y="925"
 fill="white"
 font-size="24"
 font-family="Arial"
@@ -237,9 +257,9 @@ Authentication Service
 
 <text
 x="250"
-y="950"
+y="965"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -249,9 +269,9 @@ Flask-Login • Bcrypt
 
 <text
 x="250"
-y="980"
+y="995"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -263,34 +283,34 @@ Role-Based Access Control
 
 <ellipse
 cx="700"
-cy="900"
-rx="140"
-ry="28"
+cy="910"
+rx="150"
+ry="30"
 fill="#0f766e"
 stroke="#22d3ee"
 stroke-width="2"/>
 
 <rect
-x="560"
-y="900"
-width="280"
-height="110"
+x="550"
+y="910"
+width="300"
+height="120"
 fill="#083344"
 stroke="#22d3ee"
 stroke-width="2"/>
 
 <ellipse
 cx="700"
-cy="1010"
-rx="140"
-ry="28"
+cy="1030"
+rx="150"
+ry="30"
 fill="#083344"
 stroke="#22d3ee"
 stroke-width="2"/>
 
 <text
 x="700"
-y="945"
+y="960"
 fill="white"
 font-size="24"
 font-family="Arial"
@@ -303,9 +323,9 @@ PostgreSQL Database
 
 <text
 x="700"
-y="980"
+y="995"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -313,13 +333,13 @@ Users • Books • BorrowedBook
 
 </text>
 
-<!-- SCHEDULER -->
+<!-- EMAIL SERVICE -->
 
 <rect
-x="980"
-y="850"
-width="340"
-height="150"
+x="970"
+y="860"
+width="360"
+height="160"
 rx="24"
 fill="#3f6212"
 stroke="#84cc16"
@@ -327,7 +347,7 @@ stroke-width="2"/>
 
 <text
 x="1150"
-y="915"
+y="925"
 fill="white"
 font-size="24"
 font-family="Arial"
@@ -340,9 +360,9 @@ Scheduler + Email Service
 
 <text
 x="1150"
-y="950"
+y="965"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
@@ -352,9 +372,9 @@ APScheduler • Flask-Mail
 
 <text
 x="1150"
-y="980"
+y="995"
 fill="#cbd5e1"
-font-size="14"
+font-size="15"
 font-family="Arial"
 text-anchor="middle">
 
